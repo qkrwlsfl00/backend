@@ -1,4 +1,4 @@
-GET http://localhost:3001/api/notes/33
+GET http://localhost:3001/api/notes
 
 ###
 POST http://localhost:3001/api/notes
@@ -10,4 +10,13 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3001/api/notes/6
+DELETE http://localhost:3001/api/notes/65f86f10e836b454d2a4eb83
+
+###
+PUT http://localhost:3001/api/notes/65f86ebcce5203ce87eabe2d
+Content-Type: application/json
+
+{
+  "content": "abbba",
+  "important": true
+}
